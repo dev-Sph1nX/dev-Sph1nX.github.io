@@ -2,8 +2,9 @@ import { Flex, Text } from "@chakra-ui/react";
 
 export default function Topbar(){
     return <Flex color="#686963" 
-    px={20}
-    h={"10vh"} fontWeight={"semibold"}
+    px={{base: 5, xl: 20}}
+    h={"10vh"} 
+    fontWeight={"semibold"}
     align={"center"}
     justify={"space-between"}
     >

@@ -22,7 +22,7 @@ export default function MainSection(){
     >
         <Box>
 
-        <Text mb={5} fontSize={"6xl"} fontWeight={"semibold"}>
+        <Text mb={5} fontSize={{base: "xl", sm: "2xl", md:"4xl", xl: "6xl"}} fontWeight={"semibold"}>
 
         Bonjour ✌️ <br />
 Je m’appelle Lucas et je suis développeur. <br />
